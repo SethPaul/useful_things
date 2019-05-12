@@ -1,14 +1,18 @@
-sudo apt install -y curl \
+sudo apt install -y \
+	curl \
 	docker.io \
-htop \
-tmux \
-golang-go \
-scala \
-r-base-core \
-vim \
-xclip \
+	golang-go \
+	htop \
+	python-pip \
+	r-base-core \
+	scala \
+	screen \ 
+	tmux \
+	tmux \
+	vim \
+	xclip \
 
-echo setxkbmap -option caps:escape >> ~/.profile
+	echo setxkbmap -option caps:escape >> ~/.profile
 echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.bashrc
 git config --global alias.co checkout
 git config --global alias.br branch
@@ -19,7 +23,7 @@ git config --global user.email "sethcpaul@gamil.com"
 git config --global user.name "Seth Paul"
 
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
-  && chmod +x minikube
+	&& chmod +x minikube
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 
 chmod +x ./kubectl
@@ -39,3 +43,5 @@ gcloud init
 
 
 
+python -m pip install grpcio
+python -m pip install grpcio-tools
