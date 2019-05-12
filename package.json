@@ -1,0 +1,11 @@
+{
+  "name": "useful_things",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:SethPaul/useful_things.git",
+  "author": "Seth Paul <sethcpaul@gamil.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "1.17.0"
+  }
+}
