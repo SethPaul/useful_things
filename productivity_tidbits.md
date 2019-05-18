@@ -46,7 +46,9 @@ good resource: https://www.digitalocean.com/community/tutorials/how-to-use-bash-
 
 extensive resource: https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#History-Interaction
 
-
+#### yank arg from previous command
+meta-dot, esc-dot, or alt-dot on command line to pull last arg 
+https://stackoverflow.com/questions/4009412/how-to-use-arguments-from-previous-command
 
 ### SSH config for simplifying SSH
 [Alias ssh](http://collectiveidea.com/blog/archives/2011/02/04/how-to-ssh-aliases/)
