@@ -33,6 +33,21 @@ list all files in subdirectories sorted by size: `ls -lah --recursive | less`
 - Send both to a file use `&>`: `command &> log`
 - `>> log 2>&1` can also be used this indicates route error to standard out and both to a file
 
+### case insensitive auto complete
+edit and add line in the:
+- `/etc/inputrc`, `~/.inputrc`, 
+(`set completion-ignore-case on`)
+or `~/.bash_profile`
+(`bind "set completion-ignore-case on`) 
+https://superuser.com/questions/90196/case-insensitive-tab-completion-in-bash
+
+### bash history usages
+good resource: https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps
+
+extensive resource: https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#History-Interaction
+
+
+
 ### SSH config for simplifying SSH
 [Alias ssh](http://collectiveidea.com/blog/archives/2011/02/04/how-to-ssh-aliases/)
 ```
@@ -206,6 +221,14 @@ start a script detached:
 ```bash
 tmux new -s script_session 'python /home/ubuntu/script.sh'
 ```
+Screen is similar to tmux
+start screen
+```bash
+screen
+```
+Split screen <Ctrl-a, S>
+Move to new window (change focus) <Ctrl-A, Ctrl-I>
+Start a new "screen" <Ctrl-A, c>
 
 [Scrolling up the buffer](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux):
 `CTRL+B, [`

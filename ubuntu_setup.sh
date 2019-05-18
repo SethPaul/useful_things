@@ -8,9 +8,11 @@ sudo apt install -y \
 	scala \
 	screen \ 
 	tmux \
-	tmux \
-	vim \
+	vim-gtk \
 	xclip \
+	virtualenv \
+	postgresql \
+	postgresql-contrib
 
 	echo setxkbmap -option caps:escape >> ~/.profile
 echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.bashrc
@@ -45,3 +47,4 @@ gcloud init
 
 python -m pip install grpcio
 python -m pip install grpcio-tools
+
