@@ -50,6 +50,10 @@ extensive resource: https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.
 meta-dot, esc-dot, or alt-dot on command line to pull last arg 
 https://stackoverflow.com/questions/4009412/how-to-use-arguments-from-previous-command
 
+### Evaluate an expression for an argument
+example: `pushd "$(dirname "$(which docker)")"`
+will find path of docker -> get the directory name -> change to that directory and push the previous to the directory stack to be retrived with popd
+
 ### SSH config for simplifying SSH
 [Alias ssh](http://collectiveidea.com/blog/archives/2011/02/04/how-to-ssh-aliases/)
 ```
