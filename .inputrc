@@ -1,0 +1,11 @@
+# Case insentive completion
+set completion-ignore-case on
+
+# treat underscore and hypen as the same
+set completion-map-case on
+
+set editing-mode vi
+set show-mode-in-prompt on
+set bell-style none
+set vi-cmd-mode-string "\1\e[1;31m\2:\1\e[0m\2"
+set vi-ins-mode-string "\1\e[1;31m\2+\1\e[0m\2"
