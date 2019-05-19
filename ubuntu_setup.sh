@@ -48,3 +48,4 @@ gcloud init
 python -m pip install grpcio
 python -m pip install grpcio-tools
 
+git clone git@github.com:magicmonty/bash-git-prompt.git
