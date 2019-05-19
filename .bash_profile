@@ -3,3 +3,4 @@ export PATH="$HOME/.cargo/bin:$PATH"
 alias epn='vim ~/workspace/useful_things/productivity_tidbits.md'
 
 export ws="$HOME/workspace"
+setxkbmap -option caps:escape
