@@ -32,6 +32,9 @@ list all files in subdirectories sorted by size: `ls -lah --recursive | less`
 - Send standard error to file use `2>` (`1>` is stdout as well): `command > out 2>error`
 - Send both to a file use `&>`: `command &> log`
 - `>> log 2>&1` can also be used this indicates route error to standard out and both to a file
+#### swap keys
+in .profile if not .bash_profile add `setxkbmap -option caps:escape`
+https://askubuntu.com/questions/363346/how-to-permanently-switch-caps-lock-and-esc
 
 ### case insensitive auto complete
 edit and add line in the:
