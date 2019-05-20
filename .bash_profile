@@ -4,3 +4,6 @@ alias epn='vim ~/workspace/useful_things/productivity_tidbits.md'
 
 export ws="$HOME/workspace"
 setxkbmap -option caps:escape
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
