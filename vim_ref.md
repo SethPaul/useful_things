@@ -13,8 +13,16 @@ YouCompleteMe
 
 
 ## To edit multiple lines
-`<Ctrl-V> (select lines) <Enter> make change`
+Select the lines you want to modify using CtrlV.
+Press:
 
+I: Insert before what's selected.
+A: Append after what's selected.
+C: Replace what's selected.
+Type the new text.
+
+Press Esc to apply the changes to all selected lines.
+https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines
 
 
 ## Indicator of mode if useing inputrc `set editing mode vi`

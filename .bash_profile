@@ -7,3 +7,4 @@ setxkbmap -option caps:escape
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export JNB_SNIPPETS=/mnt/c/users/seth/anaconda2/share/jupyter/nbextensions/snippets
