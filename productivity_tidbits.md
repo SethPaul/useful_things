@@ -46,7 +46,8 @@ https://superuser.com/questions/90196/case-insensitive-tab-completion-in-bash
 
 ### bash history usages
 good resource: https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps
-
+echo dirname of command 2 commands ago: `echo $(dirname which !-2:0)`
+echo dirname of first argument 3 commands ago: `echo $(dirname which !-3:1)`
 extensive resource: https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#History-Interaction
 
 #### yank arg from previous command
