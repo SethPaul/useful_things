@@ -10,6 +10,7 @@ sudo apt install -y \
 	tmux \
 	vim-gtk \
 	xclip \
+        xdotool \
 	virtualenv \
 	postgresql \
 	postgresql-contrib
