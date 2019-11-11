@@ -9,6 +9,4 @@ setxkbmap -option caps:escape
 export lh="$ws/lilihi"
 export FLASK_APP="$lh/flask_es_app/flask.py"
 export FLASK_ENV="development"
-export VISUAL=vim
-export EDITOR="$VISUAL"
-export JNB_SNIPPETS=/mnt/c/users/seth/anaconda2/share/jupyter/nbextensions/snippets
+export PLANTML="$ws/src/plantuml"

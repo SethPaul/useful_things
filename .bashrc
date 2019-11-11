@@ -14,7 +14,7 @@ HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
 shopt -s histappend
-
+# PROMPT_COMMAND="$PROMPT_COMMAND;history -a; history -n"
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=10000
 HISTFILESIZE=5000
@@ -127,9 +127,26 @@ if [ -f '/home/seth/workspace/google-cloud-sdk/path.bash.inc' ]; then . '/home/s
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/seth/workspace/google-cloud-sdk/completion.bash.inc' ]; then . '/home/seth/workspace/google-cloud-sdk/completion.bash.inc'; fi
-alias vim=nvim
 GIT_PROMPT_ONLY_IN_REPO=0
 GIT_PROMPT_FETCHREMOTE_STATUS=0
 #GIT_PROMPT_THEME_FILE=~/.git-prompt-colors.sh
 GIT_PROMPT_THEME=Solarized_Ubuntu
 source /home/seth/workspace/src/bash-git-prompt/gitprompt.sh
+
+source /home/seth/.bash_profile
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/seth/anaconda2/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/seth/anaconda2/etc/profile.d/conda.sh" ]; then
+        . "/home/seth/anaconda2/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/seth/anaconda2/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
