@@ -1,0 +1,15 @@
+{
+    "snippets" : [
+        {
+            "name": "common libs",
+            "code":[
+                "library(yaml)",
+                "library(dplyr)",
+                "library(lubridate)",
+                "library(ggplot2)"
+            ],
+            "name": "plot resize",
+            "code": ["options(repr.plot.width=4, repr.plot.height=3)"]
+        }
+    ]
+}
