@@ -64,3 +64,6 @@ mkdir -p ~/.vim/files/backup
 mkdir -p ~/.vim/files/swap
 mkdir -p ~/.vim/files/undo
 mkdir -p ~/.vim/files/info
+
+## for tex
+sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended
