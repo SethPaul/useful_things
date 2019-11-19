@@ -59,3 +59,8 @@ python -m pip install grpcio
 python -m pip install grpcio-tools
 
 git clone git@github.com:magicmonty/bash-git-prompt.git
+
+mkdir -p ~/.vim/files/backup
+mkdir -p ~/.vim/files/swap
+mkdir -p ~/.vim/files/undo
+mkdir -p ~/.vim/files/info/viminfo
