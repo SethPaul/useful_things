@@ -134,6 +134,7 @@ GIT_PROMPT_THEME=Solarized_Ubuntu
 source /home/seth/workspace/src/bash-git-prompt/gitprompt.sh
 
 source /home/seth/.bash_profile
+export DOCKER_HOST=localhost:2375
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
