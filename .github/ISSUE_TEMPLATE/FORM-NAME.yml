@@ -1,0 +1,16 @@
+name:
+description:
+
+labels: ["bug", "triage"]
+assignees:
+  - SethPaul
+body:
+  - type: textarea
+    id: conference_ids
+    attributes:
+      label: conference_ids
+      description: conference_ids to process
+      render: shell
+      placeholder: "0e869487-5870-084b-7477-cfdaf49e68ea, 1b07eb31-81f8-6b46-7471-92d8ef47d075"
+    validations:
+      required: false
